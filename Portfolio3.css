@@ -1,0 +1,111 @@
+/* RESET */
+/* Dans ton fichier Portfolio3.css */
+.experience img {
+    max-width: 100%;    /* L'image ne dépassera jamais la largeur du texte */
+    height: auto;       /* Garde les proportions (pas d'image écrasée) */
+    display: block;     /* Évite les espaces vides sous l'image */
+    margin-top: 15px;   /* Ajoute un peu d'espace avec le texte au-dessus */
+    border-radius: 8px; /* Optionnel : pour des coins arrondis plus modernes */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    background-color: #2f3e4e;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BANNIÈRE */
+.banner {
+    background-color: #3f8ec4;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* CONTENU */
+.content {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TITRES */
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card hr {
+    border: 1px solid #3f8ec4;
+    margin-bottom: 20px;
+}
+
+/* EXPERIENCES */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #2c6fa3;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.experience ul {
+    margin-left: 20px;
+}
+
+.experience li {
+    margin-bottom: 8px;
+}
+
+/* SÉPARATEUR */
+.separator {
+    margin: 30px 0;
+    border: 1px solid #ddd;
+}

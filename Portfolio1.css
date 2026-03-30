@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    background-color: #2f4353;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background-color: #3e8ec6;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* PHOTO */
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* OBJECTIF */
+.objectif {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card hr {
+    margin: 10px 0 20px;
+    border: 1px solid #3e8ec6;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* BOUTON */
+button {
+    background-color: #3e8ec6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2f6fa0;
+}

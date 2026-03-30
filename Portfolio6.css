@@ -1,0 +1,71 @@
+/* --- Garder ton menu tel quel --- */
+.navbar {
+    background-color: #1e3a50;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* --- NOUVEAU : Centrage du contenu --- */
+body {
+    background-color: #f4f7f6; /* Fond gris très clair pour faire ressortir le blanc */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding-top: 100px; /* Espace pour ne pas être SOUS le menu bleu */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Largeur max pour que ce soit lisible */
+    background: white; /* Fond blanc pour le texte */
+    padding: 40px;
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Petite ombre portée */
+}
+
+h1 {
+    color: #1e3a50;
+    margin-bottom: 10px;
+    text-align: center; /* Titre centré */
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: #1e3a50;
+    margin: 20px 0;
+    opacity: 0.2;
+}
+
+.contact-info {
+    list-style: none;
+    line-height: 2; /* Plus d'espace entre les lignes */
+    margin: 20px 0;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
