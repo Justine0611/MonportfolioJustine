@@ -119,21 +119,22 @@ nav ul li a {
     display: inline-block;
     transition: background-color 0.3s ease;
 }
-.btn-tableau {
-    background-color: #28a745; /* Un joli vert pour rappeler Excel/ODS */
+.btn-download {
+    background-color: #28a745; /* Vert "Excel/Tableur" */
     color: white;
     padding: 15px 25px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
     display: inline-block;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
     border: none;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
 }
 
-.btn-tableau:hover {
+.btn-download:hover {
     background-color: #218838;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
-
