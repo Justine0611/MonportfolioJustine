@@ -119,22 +119,21 @@ nav ul li a {
     display: inline-block;
     transition: background-color 0.3s ease;
 }
-.btn-download {
-    background-color: #28a745; /* Vert "Excel/Tableur" */
-    color: white;
+.btn-e5 {
+    background-color: #217346; /* Vert Excel professionnel */
+    color: white !important;
     padding: 15px 25px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: bold;
     display: inline-block;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
+    border: 2px solid #1e623d;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
 }
 
-.btn-download:hover {
-    background-color: #218838;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+.btn-e5:hover {
+    background-color: #1a5a37;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
